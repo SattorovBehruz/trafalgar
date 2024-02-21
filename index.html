@@ -4,171 +4,191 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trafalgar</title>
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-  <header>
-    <div>
-      <a href="./index.html">
-        <img src="./images/logo/logo.svg" 
+  <header class="site-header">
+    <div class="images-logo">
+      <a class="logo-link" href="./index.html">
+        <img class="site-img" src="./images/logo/logo.svg" 
         width="160"
         height="41"
-        alt="Trafalgar logo">
+        alt="Trafalgar logo"
+        loading="lazy">
       </a>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Find a doctor</a></li>
-          <li><a href="#">Apps</a></li>
-          <li><a href="#">Testimonials</a></li>
-          <li><a href="#">About us</a></li>
+      <nav class="navbar">
+        <ul class="list">
+          <li class="iteam">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="iteam">
+            <a class="nav-link" href="#">Find a doctor</a>
+          </li>
+          <li class="iteam">
+            <a class="nav-link" href="#">Apps</a>
+          </li>
+          <li class="iteam">
+            <a class="nav-link" href="#">Testimonials</a>
+          </li>
+          <li class="iteam">
+            <a class="nav-link" href="#">About us</a>
+          </li>
         </ul>
       </nav>
     </div>
   </header>
   
   <main>
-    <section>
-      <div>
-        <div>
-          <h1>Virtual healthcare for you</h1>
-          <p>
+    <section class="section-healt">
+      <div class="healt">
+        <div class="healt-box">
+          <h1 class="heading">Virtual healthcare for you</h1>
+          <p class="text-healt">
             Trafalgar provides progressive, and affordable 
             healthcare, accessible on mobile and online 
             for everyone
           </p>
         </div>
-        <a href="#">Consult today</a>
-        <img src="./images/virtual.png" 
+        <a class="link-healt" href="#">Consult today</a>
+        <img class="images-healt" src="./images/virtual.png" 
         width="690"
         height="532"
         srcset="./images/virtual.png 1x, ./images/virtual@2.png 2x"
-        alt="There are two people here, one is a doctor, the other is a patient">
+        alt="There are two people here, one is a doctor, the other is a patient"
+        loading="lazy">
       </div>
     </section>
     
-    <section>
-      <div>
-        <h2>Our services</h2>
-        <p>
+    <section class="services-section">
+      <div class="services-box">
+        <h2 class="services-heading">Our services</h2>
+        <p class="services-text">
           We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health
         </p>
       </div>
-      <ol>
-        <li>
-          <img src="./images/logo/search.svg"
+      <ol class="list">
+        <li class="iteam">
+          <img class="services-img" src="./images/logo/search.svg"
           width="96"
           height="93"
           srcset="./images/logo/search.svg 1x, ./images/logo/search@2.svg 2x"
-          alt="Lupa logo">
-          <h3>Search doctor</h3>
-          <p>
+          alt="Lupa logo"
+          loading="lazy">
+          <h3 class="services-heading">Search doctor</h3>
+          <p class="services-text">
             Choose your doctor from thousands of specialist, general, and trusted hospitals
           </p>
         </li>
-        <li>
-          <img src="./images/logo/online.svg" 
+        <li class="iteam">
+          <img class="services-img" src="./images/logo/online.svg" 
           width="67"
           height="91"
           srcset="./images/logo/online.svg 1x, ./images/logo/online@2.svg 2x"
-          alt="Medicine box">
-          <h3>Online pharmacy</h3>
-          <p>
+          alt="Medicine box"
+          loading="lazy">
+          <h3 class="services-heading">Online pharmacy</h3>
+          <p class="services-text">
             Buy  your medicines with our mobile application with a simple delivery system
           </p>
         </li>
-        <li>
-          <img src="./images/logo/consultation.svg"
+        <li class="iteam">
+          <img class="services-img" src="./images/logo/consultation.svg"
           width="70" 
           height="99"
           srcset="./images/logo/consultation.svg 1x, ./images/logo/consultation@2.svg 2x"
-          alt="Doctor consultation book">
-          <h3>Consultation</h3>
-          <p>
+          alt="Doctor consultation book"
+          loading="lazy">
+          <h3 class="services-heading">Consultation</h3>
+          <p class="services-text">
             Free consultation with our trusted doctors and get the best recomendations
           </p>
         </li>
-        <li>
-          <img src="./images/logo/details.svg"
+        <li class="iteam">
+          <img class="services-heading" src="./images/logo/details.svg"
           width="70"
           height="99"
           srcset="./images/logo/details.svg 1x, ./images/logo/details@2.svg 2x"
-          alt="This is a notebook for obtaining details and information from the doctor">
-          <h3>Details info</h3>
-          <p>
+          alt="This is a notebook for obtaining details and information from the doctor"
+          loading="lazy">
+          <h3 class="services-heading">Details info</h3>
+          <p class="services-text">
             Free consultation with our trusted doctors and get the best recomendations
           </p>
         </li>
-        <li>
-          <img src="./images/logo/emergency.svg" 
+        <li class="iteam">
+          <img class="services-img" src="./images/logo/emergency.svg" 
           width="84"
           height="74"
           srcset="./images/logo/emergency.svg 1x, ./images/logo/emergency@2.svg 2x"
-          alt="First aid kit">
-          <h3>Emergency care</h3>
-          <p>
+          alt="First aid kit"
+          loading="lazy">
+          <h3 class="services-heading">Emergency care</h3>
+          <p class="services-text">
             You can get 24/7 urgent care for yourself or your children and your
             lovely family
           </p>
         </li>
-        <li>
-          <img src="./images/logo/tracking.svg" 
+        <li class="iteam">
+          <img class="services-img" src="./images/logo/tracking.svg" 
           width="75"
           height="102"
           srcset="./images/logo/tracking.svg 1x, ./images/logo/tracking@2.svg 2x"
-          alt="Medical care history checklist">
-          <h3>Tracking</h3>
-          <p>
+          alt="Medical care history checklist"
+          loading="lazy">
+          <h3 class="services-heading">Tracking</h3>
+          <p class="services-text">
             Track and save your medical history and health data 
           </p>
         </li>
       </ol>
-      <a href="#">Learn more</a>
+      <a class="main-link" href="#">Learn more</a>
       <!-- <h2>Winning from the doctor's office</h2> -->
-      <div>
-        <h3>Leading healthcare providers</h3>
-        <p>
+      <div class="leading-box">
+        <h3 class="leading-header">Leading healthcare providers</h3>
+        <p class="leading-text">
           Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride 
           in the solutions we deliver
         </p>
-        <a href="#">Learn more</a>
+        <a class="main-link" href="#">Learn more</a>
       </div>
-      <img src="./images/leading.png" 
+      <img class="leading-img" src="./images/leading.png" 
       width="628"
       height="463"
       srcset="./images/leading.png 1x, ./images/leading@2.png 2x"
-      alt="In this picture, there are two people, one is holding a slave, the other is holding a pill, and behind it is a picture of pills">
-      <div>
-        <h3>Download our mobile apps</h3>
-        <p>
+      alt="In this picture, there are two people, one is holding a slave, the other is holding a pill, and behind it is a picture of pills"
+      loading="lazy">
+      <div class="mobil-box">
+        <h3 class="mobil-heading">Download our mobile apps</h3>
+        <p class="mobil-text">
           Our dedicated patient engagement app and 
           web portal allow you to access information instantaneously (no tedeous form, long calls, 
           or administrative hassle) and securely
         </p>
-        <a href="#">Download</a>
+        <a class="main-link" href="#">Download</a>
       </div>
-      <img src="./images/download.png" 
+      <img class="leading-img" src="./images/download.png" 
       width="665"
       height="434"
       srcset="./images/download.png 1x, ./images/download@2.png 2x"
-      alt="This picture shows the contact with the patient">
+      alt="This picture shows the contact with the patient"
+      loading="lazy">
       
-      <div>
-        <article>
-          <div>
-            <div>
-              <h3>What our customer are saying</h3>
-              <img src="./images/people.png" 
+      <div class="feedback-box">
+        <article class="artic">
+          <div class="artic-box">
+              <h3 class="feedback-heading">What our customer are saying</h3>
+              <img class="feedback-img" src="./images/people.png" 
               width="148"
               height="149"
               srcset="./images/people.png 1x, ./images/people@2.png 2x"
-              alt="This image shows the paintings of Edward Newgate">
-              <div>
-                <strong>Edward Newgate</strong>
-                <small>Founder Circle</small>
+              alt="This image shows the paintings of Edward Newgate"
+              loading="lazy">
+              <div class="customer-box">
+                <strong class="edward">Edward Newgate</strong>
+                <small class="circle">Founder Circle</small>
               </div>
-            </div>
-            <div>
-              <p>
+            <div class="access-box">
+              <p class="access-text">
                 “Our dedicated patient engagement app and 
                 web portal allow you to access information instantaneously (no tedeous form, long calls, 
                 or administrative hassle) and securely”
@@ -179,115 +199,146 @@
       </div>
     </section>
     
-    <section>
-      <div>
-        <h2>Check out our latest article</h2>
-        <ul>
-          <li>
-            <img src="./images/disease.png" 
+    <section class="article-section">
+      <div class="article-box">
+        <h2 class="article-heading">Check out our latest article</h2>
+        <ul class="list">
+          <li class="iteam">
+            <img class="article-img" src="./images/disease.png" 
             width="380"
             height="240"
             srcset="./images/disease.png 1x, ./images/disease@2.png 2x"
-            alt="In this case, the doctor injects into a patient's vein">
-            <h3>Disease detection, check up in the laboratory</h3>
-            <p>
+            alt="In this case, the doctor injects into a patient's vein"
+            loading="lazy">
+            <h3 class="article-heading">Disease detection, check up in the laboratory</h3>
+            <p class="article-text">
               In this case, the role of the health laboratory is very important to do
               a disease detection...
             </p>
-            <div>
-              <a href="#">Read more</a>
-              <img src="./images/sitrilka.svg" 
+            <div class="detection-box">
+              <a class="more-link" href="#">Read more</a>
+              <img class="article-img" src="./images/sitrilka.svg" 
               width="14"
               height="9"
               srcset="./images/sitrilka.svg 1x, ./images/sitrilka@2.svg 2x"
-              alt="This is a citrile looking to the right">
+              alt="This is a citrile looking to the right"
+              loading="lazy">
             </div>
           </li>
-          <li>
-            <img src="./images/herbal.png" 
+          <li class="iteam">
+            <img class="article-img" src="./images/herbal.png" 
             width="380"
             height="240"
             srcset="./images/herbal.png 1x, ./images/herbal@2.png 2x"
-            alt="In this picture, a girl is analyzing blood in a microscope">
-            <h3>Herbal medicines that are safe for consumption</h3>
-            <p>
+            alt="In this picture, a girl is analyzing blood in a microscope"
+            loading="lazy">
+            <h3 class="article-heading">Herbal medicines that are safe for consumption</h3>
+            <p class="article-text">
               Herbal medicine is very widely used at this time because of its very good for your health...
             </p>
-            <div>
-              <a href="#">Read more</a>
+            <div class="detection-box">
+              <a class="more-link" href="#">Read more</a>
               <img src="./images/sitrilka.svg"
               width="14"
               height="9"
               srcset="./images/sitrilka.svg 1x, ./images/sitrilka@2.svg 2x"
-              alt="This is a citrile looking to the right">
+              alt="This is a citrile looking to the right"
+              loading="lazy">
             </div>
           </li>
-          <li>
+          <li class="iteam">
             <img src="./images/natural.png"
             width="380"
             height="240"
             srcset="./images/natural.png 1x, ./images/natural@2.png 2x"
-            alt="In this, a girl wears a mask to beautify her face">
-            <h3>Natural care for healthy facial skin</h3>
-            <p>
+            alt="In this, a girl wears a mask to beautify her face"
+            loading="lazy">
+            <h3 class="article-heading">Natural care for healthy facial skin</h3>
+            <p class="article-text">
               In this case, the role of the health laboratory is very important to do
               a disease detection...
             </p>
-            <div>
-              <a href="#">Read more</a>
+            <div class="detection-box">
+              <a class="more-link" href="#">Read more</a>
               <img src="./images/sitrilka.svg"
               width="14"
               height="9"
               srcset="./images/sitrilka.svg 1x, ./images/sitrilka@2.svg 2x"
-              alt="This is a citrile looking to the right">
+              alt="This is a citrile looking to the right"
+              loading="lazy">
             </div>
           </li>
         </ul>
-        <a href="#">View all</a>
+        <a class="main-link " href="#">View all</a>
       </div>
     </section>
   </main>
   
-  <footer style="background-color: blue;">
-    <div>
-      <div>
-        <img src="./images/logo/trafalgar.svg" 
+  <footer class="footer-logo">
+    <div class="footer-box">
+      <div class="box">
+        <img class="logo-img" src="./images/logo/trafalgar.svg" 
         width="170"
         height="41"
-        alt="Trafalgarlogo">
-        <p>
+        alt="Trafalgarlogo"
+        loading="lazy">
+        <p class="box-text">
           Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online 
           for everyone
         </p>
-        <span>
+        <span class="span-box">
           ©Trafalgar PTY LTD 2020. All rights reserved
         </span>
       </div>
-      <div>
-        <strong>Company</strong>
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Apps</a></li>
-          <li><a href="#">Find a doctor</a></li>
-          <li><a href="#">Testimonials</a></li>
+      <div class="company-box">
+        <strong class="company">Company</strong>
+        <ul class="list">
+          <li class="iteam">
+            <a class="item-link" href="#">About</a>
+          </li>
+          <li class="iteam">
+            <a class="item-link" href="#">Apps</a>
+          </li>
+          <li class="iteam">
+            <a class="item-link" href="#">Find a doctor</a>
+          </li>
+          <li class="iteam">
+            <a class="item-link" href="#">Testimonials</a>
+          </li>
         </ul>
       </div>
-      <div>
-        <strong>Region</strong>
-        <ul>
-          <li><a href="#">Indonesia</a></li>
-          <li><a href="#">Singapore</a></li>
-          <li><a href="#">Hongkong</a></li>
-          <li><a href="#">Canada</a></li>
+      <div class="company-box">
+        <strong class="company">Region</strong>
+        <ul class="list">
+          <li class="iteam">
+            <a class="item-link" href="#">Indonesia</a>
+          </li>
+          <li class="iteam">
+            <a class="item-link" href="#">Singapore</a>
+          </li>
+          <li class="iteam">
+            <a class="item-link" href="#">Hongkong</a>
+          </li>
+          <li class="iteam">
+            <a class="item-link" href="#">Canada</a>
+          </li>
         </ul>
       </div>
-      <div>
-        <strong>Help</strong>
-        <ul>
-          <li><a href="#">Help center</a></li>
-          <li><a href="#">Contact support</a></li>
-          <li><a href="#">Instructions</a></li>
-          <li><a href="#">How it works</a></li>
+      <div class="company-box">
+        <strong class="company">Help</strong>
+        <ul class="list">
+          <li class="iteam">
+            <a class="item-link" href="#">Help center</a>
+          </li>
+          <li class="iteam">
+            <a class="item-link" href="#">Contact support</a>
+          </li>
+          <li class="iteam">
+            <a class="item-link" href="#">Instructions</a>
+          </li>
+          <li class="iteam">
+            <a class="item-link" href="#">How it works</a>
+          </li>
         </ul>
       </div>
     </div>
