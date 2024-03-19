@@ -4,16 +4,22 @@
 
 body {
   margin: 0;
+  font-family: "Mulish", "Arial", sans-serif;
 }
 
 .container {
-  width: 1220px;
+  width: 1240px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
+.heding {
+  padding-top: 56px;
+}
+
 .heding-box {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -33,10 +39,18 @@ body {
 }
 
 .link-nav {
-  color: #1f1534;
+  color: #1f153480;
   font-size: 18px;
   margin-right: 40px;
   text-decoration-line: none;
+}
+
+.link-nav-item {
+  color: #1F1534;
+}
+
+.about-link {
+  margin: 0;
 }
 
 .healt {
@@ -64,12 +78,20 @@ body {
 }
 
 .healt-link {
+  display: inline-block;
   background-color: #458ff6;
   color: #fff;
   font-size: 18px;
   padding: 16px 37px 17px;
   text-decoration-line: none;
   border-radius: 55px;
+}
+
+.services-section {
+  padding-bottom: 192px;
+  background-image: url("../images/logo/vectorleft.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 350px) calc(50% - 1200px);
 }
 
 .services {
@@ -108,11 +130,16 @@ body {
 }
 
 .services-iteam {
-  width: 283px;
-  margin-right: auto;
-  margin-left: auto;
+  width: 350px;
   margin-right: 20px;
-  padding: 68px 58px 47px 41px;
+  margin-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 45px;
+  padding-bottom: 45px;
+  padding-top: 54px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 10px 40px 50px 0px #e5e9f666;
 }
 
 .services-header {
@@ -128,12 +155,17 @@ body {
 
 
 .site-link {
+  display: inline-flex;
   color: #458ff6;
   font-size: 18px;
   border-radius: 55px;
   border: 1.4px solid #458ff6;
   padding: 17px 51px 16px;
   text-decoration-line: none;
+}
+
+.mobile-img {
+  margin-left: 7px;
 }
 
 .leading {
@@ -231,8 +263,15 @@ body {
 }
 
 .fedbek-text {
- color: #ffffffe6;
- font-size: 19px;
+  color: #ffffffe6;
+  font-size: 19px;
+}
+
+.chesk-section {
+  padding-bottom: 200px;
+  background-image: url("../images/logo/vectorright.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 700px) calc(50% - 120px);
 }
 
 .chesk-box {
@@ -256,13 +295,19 @@ body {
 }
 
 .chesk-iteam {
+  background-color: #fff;
   margin-right: 20px;
   margin-bottom: 92px;
+  box-shadow: 10px 40px 50px 0px #e5e9f666;
+  border-radius: 20px;
 }
 
 
 .chesk-desk {
   width: 266px;
+  margin-top: 30px;
+  padding-left: 33px;
+  padding-bottom: 35px;
 }
 
 .chesk-heading {
@@ -279,7 +324,7 @@ body {
 }
 
 .check-link {
-  display: inline-block;
+  display: inline-flex;
   color: #4089ed;
   margin-right: 14px;
   font-size: 17px;
@@ -347,5 +392,5 @@ body {
   color: #fff;
   font-size: 18px;
   text-decoration-line: none;
-
+  
 }
