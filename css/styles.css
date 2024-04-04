@@ -7,6 +7,17 @@ body {
   font-family: "Mulish", "Arial", sans-serif;
 }
 
+.visaully-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: none;
+  clip-path: rect(0 0 0 0);
+}
+
 .container {
   width: 1240px;
   margin: 0 auto;
@@ -168,9 +179,22 @@ body {
   margin-left: 7px;
 }
 
-.leading {
-  display: flex;
+.leading-list {
   margin-top: 213px;
+  padding: 0;
+  list-style: none;
+}
+
+.leading-item {
+  display: flex;
+  margin-right: 75px;
+  margin-bottom: 250px;
+}
+
+.mobile-item {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0;
 }
 
 .leading-box {
@@ -226,8 +250,17 @@ body {
   color: #fff;
   font-size: 36px;
   text-align: center;
-  margin: 0;
+  margin-bottom: 34px;
   padding-top: 73px;
+}
+
+.artic-span {
+  display: block;
+  width: 59px;
+  height: 2px;
+  margin: 0 auto;
+  border-radius: 6px;
+  background-color: #fff;
 }
 
 .fedbek-people {
@@ -236,8 +269,7 @@ body {
 }
 
 .fedbek-img {
-  margin-top: 106px;
-  margin-bottom: 73px;
+  margin-inline: 118px 31px ;
 }
 
 .people-name {
