@@ -121,11 +121,22 @@ body {
   font-size: 36px;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 61px;
+  margin-bottom: 26px;
+}
+
+.servic-span {
+  display: block;
+  width: 56px;
+  height: 2px;
+  margin: 0 auto;
+  border-radius: 6px;
+  border-radius: 5px;
+  background-color: #000;
 }
 
 .services-text {
   color: #7d7987;
+  margin-top: 33px;
   font-size: 18px;
   text-align: center;
 }
@@ -205,13 +216,21 @@ body {
 
 .leading-title {
   font-size: 36px;
-  margin-bottom: 62px;
+  margin-bottom: 30px;
+}
+
+.leading-span {
+  display: block;
+  width: 51px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #000;
 }
 
 .leading-text {
   color: #7d7987;
   font-size: 18px;
-  margin-top: 0;
+  margin-top: 30px;
   margin-bottom: 40px;
 }
 
@@ -228,13 +247,13 @@ body {
 
 .mobile-title {
   font-size: 36px;
-  margin-bottom: 62px;
+  margin-bottom: 30px;
 }
 
 .mobile-text {
   color: #7d7987;
   font-size: 18px;
-  margin-top: 0;
+  margin-top: 30px;
   margin-bottom: 40px;
 }
 
@@ -313,16 +332,25 @@ body {
 
 .chesk-title {
   margin-top: 0;
-  margin-bottom: 72px;
+  margin-bottom: 30px;
   font-size: 36px;
   text-align: center;
+}
+
+.check-span {
+  display: block;
+  width: 56px;
+  height: 2px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: #000;
 }
 
 .chesk-list {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  margin: 0;
+  margin-top: 40px;
   padding: 0;
 }
 
